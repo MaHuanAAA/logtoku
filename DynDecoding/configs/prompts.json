@@ -1,0 +1,5 @@
+{
+    "exp": "llama2",
+    "prompt_llama2": "<s>[INST]Classify the following sentence into ['anger', 'anticipation', 'disgust', 'fear', 'joy', 'love', 'optimism', 'pessimism', 'sadness', 'surprise', 'trust'], the sentence is {} [/INST] The class of this sentence is: \n['",
+    "prompt_default": "<|begin_of_text|><|start_header_id|>system<|end_header_id|>\n\ndon't answer with any format(like markdown), just in natural language.\n<|eot_id|><|start_header_id|>user<|end_header_id|>\n\nClassify the following sentence into one of the following emotions: ['anger', 'anticipation', 'disgust', 'fear', 'joy', 'love', 'optimism', 'pessimism', 'sadness', 'surprise', 'trust']. The sentence is: \"{}\". The class of this sentence is? <|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\nThe sentence you provided is classified as \n['"
+}
