@@ -143,6 +143,31 @@ As outlined in the file structure, our experiment involves generating and evalua
 Of course, you can directly run the `run_eval.sh` and `run_generate.sh` scripts we have organized to reproduce the entire experiment.
 
 
+## Reporting Materials
+
+The following content is from slides used for internal reports. We have anonymized some of the content for submission, hoping that it will help you understand the paper's content more clearly and logically, thereby saving your time. However, please use it only for reading and do ***NOT*** distribute it.
+
+![Annual_Meeting_Report_4](./pics/Annual_Meeting_Report_4.png)
+
+---
+
+![Annual_Meeting_Report_5](./pics/Annual_Meeting_Report_5.png)
+
+---
+
+![Annual_Meeting_Report_6](./pics/Annual_Meeting_Report_6.png)
+
+---
+
+![Annual_Meeting_Report_9](./pics/Annual_Meeting_Report_9.png)
+
+---
+
+![Annual_Meeting_Report_13](./pics/Annual_Meeting_Report_13.png)
+
+---
+
+![Annual_Meeting_Report_21](./pics/Annual_Meeting_Report_21.png)
 
 
 
