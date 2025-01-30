@@ -145,7 +145,12 @@ Of course, you can directly run the `run_eval.sh` and `run_generate.sh` scripts 
 
 ## Reporting Materials
 
-The following content is from slides used for internal reports. We have anonymized some of the content for submission, hoping that it will help you understand the paper's content more clearly and logically, thereby saving your time. However, please use it only for reading and do ***NOT*** distribute it.
+The following content is from slides used for internal reports. We have anonymized some of the content for submission, hoping that it will help you understand the paper's content more clearly and logically, thereby saving your time.
+
+
+However, please use it only for reading and do ***NOT*** distribute it. Thank you.
+
+---
 
 ![Annual_Meeting_Report_4](./pics/Annual_Meeting_Report_4.png)
 
