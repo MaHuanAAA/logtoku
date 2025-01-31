@@ -1,6 +1,8 @@
-# LogTokU: Effective, Real-Time LLM Uncertainty Estimation
+# LogTokU: Effective, Real-Time LLM Uncertainty Estimation 
 
-This repository contains the official implementation for the paper **"LogTokU: Effective, Real-Time LLM Uncertainty Estimation"**, introducing a novel approach for efficient uncertainty quantification in large language models.
+This repository contains the official implementation for the paper **"LogTokU: Effective, Real-Time LLM Uncertainty Estimation"**, introducing a novel approach for efficient uncertainty quantification in large language models. 
+
+_(This is for submission only. Please do **NOT** distribute it until publication. Thank you.)_
 
 ## Requirements
 
