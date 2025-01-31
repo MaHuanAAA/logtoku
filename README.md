@@ -174,6 +174,10 @@ However, please use it only for reading and do ***NOT*** distribute it. Thank yo
 
 ---
 
+![Annual_Meeting_Report_16](./pics/Annual_Meeting_Report_16.png)
+
+---
+
 ![Annual_Meeting_Report_21](./pics/Annual_Meeting_Report_21.png)
 
 
