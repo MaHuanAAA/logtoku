@@ -154,24 +154,8 @@ Of course, you can directly run the `run_eval.sh` and `run_generate.sh` scripts 
 }
 ```
 
-[English][中文]
+[点击跳转中文海报](./poster.png)
+![Poster](./poster_en.png)
 
-![Poster|海报](./poster.png){: .lang-toggle data-en="./poster_en.png"}
-
-<style>
-.lang-toggle {
-  cursor: pointer;
-  border-bottom: 1px dashed #999;
-}
-</style>
-<script>
-document.querySelectorAll('.lang-toggle').forEach(img => {
-  img.onclick = function() {
-    const isEn = confirm('Switch to English?');
-    this.src = isEn ? this.dataset.en : this.dataset.zh || './poster.png';
-    this.alt = isEn ? 'Poster' : '海报';
-  };
-});
-</script>
 
 
