@@ -1,6 +1,6 @@
-# Estimating LLM Uncertainty with Logits
+# Estimating LLM Uncertainty with Evidence
 
-This repository contains the official implementation for the paper **"Estimating LLM Uncertainty with Logits"**, introducing a novel approach for efficient uncertainty quantification in large language models. 
+This repository contains the official implementation for the paper **"Estimating LLM Uncertainty with Evidence (Logits)"**, introducing a novel approach for efficient uncertainty quantification in large language models. 
 
 
 ## Requirements
@@ -143,7 +143,16 @@ As outlined in the file structure, our experiment involves generating and evalua
 
 Of course, you can directly run the `run_eval.sh` and `run_generate.sh` scripts we have organized to reproduce the entire experiment.
 
+### Citation
 
+@article{ma2025estimating,
+  title={Estimating LLM Uncertainty with Logits},
+  author={Ma, Huan and Chen, Jingdong and Joey Tianyi Zhou and Wang, Guangyu and Zhang, Changqing},
+  journal={arXiv preprint arXiv:2502.00290},
+  year={2025}
+}
+
+![Poster](.poster.png)
 
 
 
