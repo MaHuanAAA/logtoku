@@ -152,7 +152,7 @@ Of course, you can directly run the `run_eval.sh` and `run_generate.sh` scripts 
   year={2025}
 }
 
-![Poster](.poster.png)
+![Poster](./poster.png)
 
 
 
