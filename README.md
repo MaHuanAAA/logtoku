@@ -154,7 +154,7 @@ Of course, you can directly run the `run_eval.sh` and `run_generate.sh` scripts 
 }
 ```
 
-[点击跳转中文海报](./poster.png)
+[ [Poster](./poster_en.png) | [点击跳转中文海报](./poster.png) ]
 ![Poster](./poster_en.png)
 
 
