@@ -154,7 +154,7 @@ Of course, you can directly run the `run_eval.sh` and `run_generate.sh` scripts 
 }
 ```
 
-[ [Poster](./poster_en.png) | [点击跳转中文海报](./poster.png) ] [ [PPT](./uncertaintyofLLM_EN.pptx) | [中文PPT材料](./UncertaintyPPT.pptx) ]
+[ **Poster** | [点击跳转中文海报](./poster.png) ] [ [PPT](./uncertaintyofLLM_EN.pptx) | [中文PPT材料](./UncertaintyPPT.pptx) ]
 ![Poster](./poster_en.png)
 
 
