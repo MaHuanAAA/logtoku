@@ -147,7 +147,7 @@ Of course, you can directly run the `run_eval.sh` and `run_generate.sh` scripts 
 
 ```
 @article{ma2025estimating,
-  title={Estimating LLM Uncertainty with Logits},
+  title={Estimating LLM Uncertainty with Evidence},
   author={Ma, Huan and Chen, Jingdong and Joey Tianyi Zhou and Wang, Guangyu and Zhang, Changqing},
   journal={arXiv preprint arXiv:2502.00290},
   year={2025}
