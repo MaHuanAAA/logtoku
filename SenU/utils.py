@@ -43,6 +43,7 @@ def load_jsonl_file(save_file_name):
     return data
 
 def save2jsonl(new_decoded, metric_dict, logit_dict, save_file_name, i):
+    os.makedirs(os.path.dirname(save_file_name), exist_ok=True)
     with open(save_file_name, 'a') as output_file:
         prob_list = metric_dict['prob']
         entropy_list = metric_dict['entropy']
