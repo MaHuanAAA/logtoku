@@ -27,7 +27,7 @@ from utils import merge_jsonl_files
 from metrics import topk, get_eu
 from utils import seed_everything, color_print
 from utils import save2jsonl, convert_float32_to_float, save2json_SE, load_jsonl_file
-from utils import process_generated_tokens, get_one_pass_metric, get_muti_pass_metric
+from utils import get_one_pass_metric, get_muti_pass_metric
 from utils import process_decoded_str
 from utils import calculate_and_save_metrics
 from utils import calculate_and_save_metrics_llm
@@ -191,9 +191,6 @@ def main():
 
                     generated_tokens = generated.sequences[0][input_length:].clone()
                     stop_phrases = ["Answer the question concisely", "Q:","\n\nQ:", "\nQ:","\"Q:\""]
-                    # clean_generated_tokens = process_generated_tokens(generated_tokens, period_token_id, stop_phrases,tokenizer)
-                    # clean_generated_tokens_length = len(clean_generated_tokens)
-                    # clean_decoded = tokenizer.decode(generated_tokens, skip_special_tokens=True)
                     # metric_dict = get_muti_pass_metric(logits, clean_generated_tokens, clean_generated_tokens_length, question, clean_decoded, gen_iter, metric_dict)
                     clean_decoded, clean_generated_tokens_length = process_decoded_str(new_decoded, stop_phrases, tokenizer)
                     metric_dict = get_muti_pass_metric(logits, generated_tokens, clean_generated_tokens_length, question, clean_decoded, gen_iter, metric_dict)
@@ -234,7 +231,6 @@ def main():
             elif args.dataset_name == 'triviaqa':
                 all_answers = dataset[i]['answer']['aliases']
                 question = dataset[i]['question']
-                # print("来了")
             predictions = one_pass_data[i].get("answer", [])
             predictions = np.array([predictions], dtype=object)
             calculate_and_save_metrics_llm(i, question, predictions, all_answers, save_eval, model, tokenizer)
