@@ -1,6 +1,6 @@
 # Estimating LLM Uncertainty with Evidence & Improving Semantic Entropy
 
-This repository contains the official implementation for the paper **"Estimating LLM Uncertainty with Evidence (Logits)"**, introducing a novel approach for efficient uncertainty quantification in large language models. Additionally, it includes **how to utilize this method to enhance Semantic Entropy**. The relevant technical report is currently being compiled, and the method can be found in [Semantic Energy](./cover_se.pdf).
+This repository contains the official implementation for the paper **"Estimating LLM Uncertainty with Evidence (Logits)"**, introducing a novel approach for efficient uncertainty quantification in large language models. Additionally, it includes **how to utilize this method to enhance Semantic Entropy**. The relevant technical report is currently being compiled, and the method can be found in [Semantic Energy](https://github.com/MaHuanAAA/SemanticEnergy).
 
 
 ## Requirements
