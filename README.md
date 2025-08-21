@@ -2,6 +2,27 @@
 
 This repository contains the official implementation for the paper **"Estimating LLM Uncertainty with Evidence (Logits)"**, introducing a novel approach for efficient uncertainty quantification in large language models. Additionally, it includes **how to utilize this method to enhance Semantic Entropy**. The relevant technical report is currently being compiled, and the method can be found in [Semantic Energy](https://github.com/MaHuanAAA/SemanticEnergy).
 
+## Citation
+
+```
+@article{ma2025estimating,
+  title={Estimating LLM Uncertainty with Evidence},
+  author={Ma, Huan and Chen, Jingdong and Joey Tianyi Zhou and Wang, Guangyu and Zhang, Changqing},
+  journal={arXiv preprint arXiv:2502.00290},
+  year={2025}
+}
+```
+
+## FAQs
+
+***Q1: About the value ranges of AU and EU***
+
+The values of AU are not within the [0,1]. Theoretically, the range of AU can be (0,+∞), while the value of EU is between [0,1]. However, in practice, the ranges of AU or EU for different tokens are very close. Currently, AU and EU mainly serve as indicators of rank, and their specific scale is a question worth studying. Of course, this does not affect the experiments. Similar to other comparative methods like entropy, we can currently select thresholds based on rank, and adopting AUROC as the comparative metric can eliminate the impact of manually selecting thresholds.
+
+***Q2: QA Performance***
+
+Some have reported that the performance on TriviaQA is relatively poor in the hallucination detection task, and our tests have confirmed this issue. The cause of this problem lies in the fact that LogTokU only deems a response unreliable when both EU and AU are high. However, in some semantically sensitive QA scenarios, certain responses may exhibit semantic conflicts. For instance, in sentiment analysis, a next-token might receive a high score for both "positive" and "negative" sentiments simultaneously. Although this suggests that the model has encountered many similar scenarios, it still fails to make an accurate judgment. This issue has been resolved in the improved version. Please refer to the [Semantic Energy](https://github.com/MaHuanAAA/SemanticEnergy) for details.
+
 
 ## Requirements
 
@@ -143,19 +164,11 @@ As outlined in the file structure, our experiment involves generating and evalua
 
 Of course, you can directly run the `run_eval.sh` and `run_generate.sh` scripts we have organized to reproduce the entire experiment.
 
-### Citation
 
-```
-@article{ma2025estimating,
-  title={Estimating LLM Uncertainty with Evidence},
-  author={Ma, Huan and Chen, Jingdong and Joey Tianyi Zhou and Wang, Guangyu and Zhang, Changqing},
-  journal={arXiv preprint arXiv:2502.00290},
-  year={2025}
-}
-```
 
 [ **Poster** | [点击跳转中文海报](./poster.png) ] [ [PPT](./uncertaintyofLLM_EN.pptx) | [中文PPT材料](./UncertaintyPPT.pptx) ]
 ![Poster](./poster_en.png)
+
 
 
 
